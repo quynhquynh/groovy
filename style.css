@@ -1,0 +1,173 @@
+body{
+	width: 1050px;
+	margin: 0 auto;
+	background-color: #f8f8f8;
+	margin-top: 15px;
+	font-family: Open Sans;
+}
+
+.header{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	border-top:  solid #ff6600;
+}
+
+.header-menu{
+	display: flex;
+	width: 60%;
+	justify-content: space-around;
+}
+
+
+
+a:link {
+  text-decoration: none;
+  color: #000080;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+a:active {
+  text-decoration: none;
+  color: hotpink;
+}
+
+
+.section{
+	
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.left{
+	border-top:  solid #ff6600;
+	width: 65%;
+	
+}
+
+.top-left{
+	background-color: white;
+	padding-top: 15px;
+	padding-left: 20px;
+
+}
+
+.bottom-left{
+	background-color: white;
+	border-top:  solid #ff6600;
+	padding-top: 15px;
+	padding-left: 20px;
+	margin-bottom: 50px;
+}
+
+
+.end-left{
+	background-color: white;
+	border-top:  solid #ff6600;
+	padding-top: 15px;
+	padding-left: 20px;
+	margin-bottom: 50px;
+}
+
+.top-right{
+	
+	border-top:  solid #ff6600;
+	width: 30%;
+	padding-top: 13px;
+	padding-left: 15px;
+}
+
+.top-right-img{
+	background-color: white;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+}
+.tab{
+	background-color: white;
+	border-top:  solid #ff6600;
+	padding-top: 13px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+}
+
+.search{
+	background-color: white;
+	border-top:  solid #ff6600;
+	padding-top: 13px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+}
+
+input[type="text"] {
+    width: 270px;
+}
+
+.lower-right{
+	background-color: white;
+	border-top:  solid #ff6600;
+	padding-top: 13px;
+	padding-left: 15px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+
+.evenImg{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.section2{
+	border-top:  solid #ff6600;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+
+
+.footerItem{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.blur{
+	color: #a3a375;
+}
+
+.tab-content{
+	display: none;
+}
+
+.tab-content:target{
+	display: block;
+	background-color: hotpink;
+}
+
+
+.col1, .col2{
+	width: 60%;
+}
+
+.list{
+	display: flex;
+	justify-content: space-between;
+}
+
